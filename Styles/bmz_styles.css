@@ -19,7 +19,7 @@ body {
 	text-align: left;
 }
 .scrolling-wrapper {
-	height: 100vh;
+	height: 100%;
 	overflow-x: auto;
 	overflow-y: hidden;
 	white-space: nowrap;
@@ -37,7 +37,7 @@ body {
 
 .col-12.col-sm-10.col-xl-8 {
 	background-color: #E7E5BC;
-	height: 100vh;
+	height: 100%;
 }
 
 #nav, a, a:hover{
@@ -92,9 +92,6 @@ body {
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
 @media (min-width: 1200px) {
 
-	#indexHeight {
-		height: 85vh;
-	}
 	.col-12.col-sm-10.col-xl-8 {
 		padding: 5vh 0;
 	}
