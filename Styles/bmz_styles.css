@@ -281,14 +281,10 @@ body {
 /* XS XS XS XS XS XS XS XS XS */
 @media (max-width: 575px) {
 
-	.scrolling-wrapper {
-		height: 110vh;
-	}
 	.card {
 		background: #E7E5BC;
 		overflow-x: hidden;
 		overflow-y: scroll;
-		height: 110vh;
 		scroll-snap-align: end;
 	}
 
