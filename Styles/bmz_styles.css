@@ -18,7 +18,7 @@ body {
 	text-decoration: none;
 	text-align: left;
 }
-html, body, .scrolling-wrapper {
+html, body, .scrolling-wrapper, .col-12.col-sm-10.col-xl-8 {
 	overscroll-behavior-y: none;
   }
 .scrolling-wrapper {
