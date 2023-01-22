@@ -25,6 +25,7 @@ body {
 	white-space: nowrap;
 	scroll-snap-type: x mandatory;
 	-webkit-overflow-scrolling: none;
+	overscroll-behavior: none;
 }
 .card {
 	background-color: #666655;
@@ -32,6 +33,7 @@ body {
 	overflow-y: auto;
 	scroll-snap-align: end;
 	-webkit-overflow-scrolling: none;
+	overscroll-behavior: none;
 }
 
 .col-12.col-sm-10.col-xl-8 {
