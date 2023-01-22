@@ -18,7 +18,7 @@ body {
 	text-decoration: none;
 	text-align: left;
 }
-html, body, .scrolling-wrapper, .card {
+html, body, .scrolling-wrapper {
 	overscroll-behavior-y: none;
   }
 .scrolling-wrapper {
