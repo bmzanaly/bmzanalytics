@@ -27,14 +27,14 @@ html, body, .scrolling-wrapper, .col-12.col-sm-10.col-xl-8 {
 	overflow-x: auto;
 	overflow-y: hidden;
 	white-space: nowrap;
-	/*scroll-snap-type: x mandatory;*/
+	scroll-snap-type: x mandatory;
 	-webkit-overflow-scrolling: none;
 }
 .card {
 	background-color: #666655;
 	overflow-x: hidden;
 	overflow-y: auto;
-	/*scroll-snap-align: end;*/
+	scroll-snap-align: end;
 	-webkit-overflow-scrolling: none;
 }
 
