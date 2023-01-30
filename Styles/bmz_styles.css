@@ -17,6 +17,7 @@ body {
 	color: #333333;
 	text-decoration: none;
 	text-align: left;
+	overscroll-behavior: none;
 }
 html, body, .scrolling-wrapper, .col-12.col-sm-10.col-xl-8 {
 	overscroll-behavior-y: none;
