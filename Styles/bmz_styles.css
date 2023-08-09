@@ -291,6 +291,9 @@ html, body, .scrolling-wrapper, .col-12.col-sm-10.col-xl-8 {
 		overflow-y: scroll;
 		scroll-snap-align: end;
 	}
+	body {
+		overscroll-behavior: none;
+	}
 
 	.col-12.col-sm-10.col-xl-8 {
 		padding: 2vh 2vw;
