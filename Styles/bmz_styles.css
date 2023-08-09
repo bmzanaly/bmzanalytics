@@ -5,6 +5,7 @@
 .row, .col [class*='col-'], .navbar, .nav, img, .img-fluid {
 	margin: 0; padding: 0; border: none;
 }
+
 .img-fluid {
 	display: block;
 	height: auto;
@@ -19,12 +20,8 @@ body {
 	text-align: left;
 }
 
-.container-fluid {
+body {
 	background-color: #666655;
-}
-
-.col-12.col-sm-10.col-xl-8 {
-	background-color: #E7E5BC;
 }
 
 #nav, a, a:hover{
@@ -34,17 +31,14 @@ body {
 .navbar {
 	line-height: 1.65;
 }
-.nav .current {
+.navLink:active {
 	border: .25px solid #666655;
 }
-.navLink:visited, .navLink:link, .navLink:active, 
-.navLink:hover {
-    text-decoration: none;
-	}
 	
-
-#copy {
+.col-sm-1.col-xl-2, .col-12.col-sm-10.col-xl-8 {
 	background-color: #E7E5BC;
+}
+#copy {
 	white-space: normal;
 	font-size: .8em;
 	padding: 3vh 2vw;
@@ -64,7 +58,6 @@ body {
 
 /* index.html */
 .enterLogo {
-	height: 100vh;
 	padding-top: 20vh;
 }
 #enter {
@@ -267,7 +260,7 @@ body {
 /* XS XS XS XS XS XS XS XS XS */
 @media (max-width: 575px) {
 
-	.container-fluid {
+	body {
 		background: #E7E5BC;
 	}
 
