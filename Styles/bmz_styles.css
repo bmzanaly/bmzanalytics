@@ -1,4 +1,4 @@
-/* {
+* {
 	border: solid black .1px;
 }*/
 
@@ -64,9 +64,7 @@ body {
 
 /* index.html */
 .enterLogo {
-	height: 92.5vh;
-}
-#enterLogo {
+	height: 100vh;
 	padding-top: 20vh;
 }
 #enter {
