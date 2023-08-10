@@ -40,6 +40,11 @@ body {
 	width: 100%;
 }
 #copy {
+	padding:0;
+	font-size: .8em;
+	line-height: 1.75;
+}
+#clients {
 	font-size: .8em;
 	line-height: 1.75;
 }
@@ -47,7 +52,12 @@ body {
 #subtitle, #update {
 	color: #658621;
 	align-items: center;
+	margin: 7.5vh 0 2.5vh 0;
 }
+#clients {
+	margin-right: 1em;
+}
+
 #service {
 	font-size: 2.25vw;
 	letter-spacing: 0.75vw;
@@ -69,8 +79,6 @@ body {
 /* intro page */
 
 	#subtitle {
-		margin-top: 7.5vh;
-		margin-bottom: 1.5vh;
 		font-size: 2.25vw;
 		letter-spacing: 0.45vw;
 	}
@@ -115,8 +123,6 @@ body {
 		line-height: 1.75;
 	}
 	#subtitle {
-		padding-top: 7.5vh;
-		padding-bottom: 1.25vh;
 		font-size: 2.25vw;
 		letter-spacing: 0.45vw;
 	}
@@ -157,7 +163,6 @@ body {
 	#xsmall {display: none;}
 
 	#subtitle {
-		padding: 7.5vh 0 1.5vh 1.75vw;
 		font-size: 3.25vw;
 		letter-spacing: 0.75vw;
 	}
@@ -196,7 +201,6 @@ body {
 		line-height: 1.75;
 	}
 	#subtitle {
-		padding: 7.5vh 1vw 1.5vh 1.5vw;
 		font-size: 4vw;
 		letter-spacing: 0.75vw;
 	}
@@ -246,7 +250,6 @@ body {
 		line-height: 1.75;
 	}
 	#subtitle {
-		margin: 5vh 0 1vh 0;
 		font-size: 5vw;
 		letter-spacing: 0.75vw;
 		
@@ -256,7 +259,7 @@ body {
 		padding: 0 0 2vh 0;
 	}
 
-	#copy {
+	#copy, #clients {
 		line-height: 1.7;
 	}
 	#non-random, #s-xl {display: none;}
