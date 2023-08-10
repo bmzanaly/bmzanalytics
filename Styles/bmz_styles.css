@@ -16,12 +16,13 @@ body {
 	text-align: left;
 	background-color: #666655;
 }
-.row, .col, .col-7.col-sm-8, .container-fluid {
+.row, .col, .col-8, .container-fluid {
 	margin: 0; padding: 0;
 }
 
 .navLink, a {
-	color: #658621;
+	/*color: #658621;*/
+	color: #4E7E38;
 }
 #nav:active {
 	color: black;
@@ -60,7 +61,7 @@ body {
 }
 
 #subtitle, #update {
-	color: #658621;
+	color: #4E7E38;
 	align-items: center;
 	margin: 7.5vh 0 2.5vh 0;
 }
