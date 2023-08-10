@@ -9,8 +9,7 @@
 
 body {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
-	letter-spacing: 0.03vw;
-	line-height: 3vh;
+	letter-spacing: 0.03em;
 	color: #333333;
 	text-decoration: none;
 	text-align: left;
@@ -24,6 +23,7 @@ body {
 	/*color: #658621;*/
 	color: #4E7E38;
 }
+
 #nav:active {
 	color: black;
 }
@@ -35,13 +35,13 @@ body {
 }
 
 .navbar {
-	line-height: 1.65;
+	line-height: 1.85;
 }
 .navLink:active {
 	border: .25px solid #666655;
 }
 	
-.col-12.col-sm-10.col-xl-8 {
+.col-sm-12.col-md-10 {
 	background-color: #E7E5BC;
 	min-height: 100vh;
 	padding: 2vh;
@@ -57,7 +57,7 @@ body {
 #clients {
 	font-size: .8em;
 	line-height: 1.75;
-		margin-right: 1em;
+	margin-right: 1em;
 }
 
 #subtitle, #update {
@@ -104,9 +104,9 @@ body {
 
 	.navbar {
 		padding: 1.5vh 0 0 .5vw;
-		font-size: 1em;
-		font-weight: 400;
-		letter-spacing: 0.25vw;
+		font-size: 1.25em;
+		font-weight: 500;
+		letter-spacing: 0.2em;
 	}
 	img#canada {
 		display: block;
@@ -128,7 +128,7 @@ body {
 	
 	.navbar {
 		padding: 3vh 0 0 .5vw;
-		font-size: 1.25vw;
+		font-size: 1.2em;
 		font-weight: 400;
 		letter-spacing: 0.35vw;
 		line-height: 1.75;
@@ -166,10 +166,10 @@ body {
 
 	.navbar {
 		padding: 3vh 0 0 .5vw;
-		font-size: 1.5vw;
+		font-size: 1.1em;
 		font-weight: 400;
-		letter-spacing: 0.3vw;
-		line-height: 1.75;
+		letter-spacing: 0.1em;
+		line-height: 1.65;
 	}
 	#xsmall {display: none;}
 
@@ -206,11 +206,12 @@ body {
 	
 	.navbar {
 		padding: 3vh 0 0 .5vw;
-		font-size: 1.85vw;
+		font-size: .95em;
 		font-weight: 400;
 		letter-spacing: 0.3vw;
 		line-height: 1.75;
 	}
+	
 	#subtitle {
 		font-size: 4vw;
 		letter-spacing: 0.75vw;
@@ -248,16 +249,16 @@ body {
 	body {
 		background: #E7E5BC;
 	}
-	.col-sm-1.col-xl-2 {display:none;}
-	.col-12.col-sm-10.col-xl-8 {
-		padding: 2vh 2vw;
+	.col-md-1 {display:none;}
+	.col-sm-12.col-md-10 {
+		padding: 1vh 1vw;
 	}
 
 	.navbar {
-		padding: 2vh 0 0 1vw;
-		font-size: 2.5vw;
+		padding: 2vh 0 0 0;
+		font-size: .7em;
 		font-weight: 400;
-		letter-spacing: 0.1vw;
+		letter-spacing: 0;
 		line-height: 1.75;
 	}
 	#subtitle {
@@ -274,7 +275,6 @@ body {
 		line-height: 1.7;
 	}
 	#non-random, #s-xl {display: none;}
-
 
 	img#canada {
 		display: block;
