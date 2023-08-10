@@ -23,10 +23,14 @@ body {
 .navLink, a {
 	color: #658621;
 }
-a:hover {
+#nav:active {
 	color: black;
-	transform: scale(1.5);
-	transition: cubic-bezier(0.075, 0.82, 0.165, 1); 
+}
+.navLink {display:inline-block;}
+.navLink:hover, a:hover {
+	color: black;
+	transform: scale(1.025);
+	transition: transform .25s ease-in-out;
 }
 
 .navbar {
