@@ -20,8 +20,13 @@ body {
 	margin: 0; padding: 0;
 }
 
-#nav, a, a:hover{
+.navLink, a {
 	color: #658621;
+}
+a:hover {
+	color: black;
+	transform: scale(1.5);
+	transition: cubic-bezier(0.075, 0.82, 0.165, 1); 
 }
 
 .navbar {
