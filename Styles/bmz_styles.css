@@ -11,7 +11,6 @@ body {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	letter-spacing: 0.03em;
 	color: #333333;
-	text-decoration: none;
 	text-align: left;
 	background-color: #666655;
 }
@@ -35,23 +34,23 @@ body {
 	color: #298100;
 }
 
-#nav:active {
-	color: black;
-}
 .navLink {display:inline-block;}
+
 .navLink:hover, a:hover {
 	color: black;
-	transform: scale(1.025);
+	text-decoration: none;
+	transform: scale(1.007);
 	transition: transform .25s ease-in-out;
+	background-color: rgba(135, 135, 135, 0.078);
+	padding-left: .5px;
+	padding-right: .5px;
+	border-radius: 10px;
 }
 
 .navbar {
 	padding: 1vh 0 0 0;
 	line-height: 1.85;
 	display: block;
-}
-.navLink:active {
-	border: .25px solid #666655;
 }
 	
 .col-sm-12.col-md-10 {
