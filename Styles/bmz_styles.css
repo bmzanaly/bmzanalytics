@@ -21,10 +21,18 @@ body {
 .row, .col, .col-8, .container-fluid {
 	margin: 0; padding: 0;
 }
+.col-4 {
+	padding-right: 0;
+}
+
+
+.nav.flex-column {
+	align-items: flex-end;
+}
 
 .navLink, a {
 	/*color: #658621;*/
-	color: #4E7E38;
+	color: #298100;
 }
 
 #nav:active {
@@ -38,7 +46,9 @@ body {
 }
 
 .navbar {
+	padding: 1vh 0 0 0;
 	line-height: 1.85;
+	display: block;
 }
 .navLink:active {
 	border: .25px solid #666655;
@@ -54,7 +64,7 @@ body {
 }
 #copy {
 	padding:0;
-	font-size: .8em;
+	font-size: .9em;
 	line-height: 1.75;
 }
 #clients {
@@ -75,7 +85,7 @@ body {
 #service {
 	font-size: 2.25vw;
 	letter-spacing: 0.75vw;
-	color: #658621;
+	color: #298100;
 	padding: 5vh 0 3vh 1vh;
 }
 
@@ -106,7 +116,6 @@ body {
 	#xsmall {display: none;}
 
 	.navbar {
-		padding: 1.5vh 0 0 .5vw;
 		font-size: 1.25em;
 		font-weight: 500;
 		letter-spacing: 0.2em;
@@ -130,7 +139,6 @@ body {
 @media (min-width: 992px) and (max-width: 1199px) {
 	
 	.navbar {
-		padding: 3vh 0 0 .5vw;
 		font-size: 1.2em;
 		font-weight: 400;
 		letter-spacing: 0.35vw;
@@ -168,7 +176,6 @@ body {
 @media (min-width: 768px) and (max-width: 991px) {
 
 	.navbar {
-		padding: 3vh 0 0 .5vw;
 		font-size: 1.1em;
 		font-weight: 400;
 		letter-spacing: 0.1em;
@@ -208,7 +215,6 @@ body {
 @media (min-width: 576px) and (max-width: 767px) {
 	
 	.navbar {
-		padding: 3vh 0 0 .5vw;
 		font-size: .95em;
 		font-weight: 400;
 		letter-spacing: 0.3vw;
@@ -258,7 +264,6 @@ body {
 	}
 
 	.navbar {
-		padding: 2vh 0 0 0;
 		font-size: .7em;
 		font-weight: 400;
 		letter-spacing: 0;
