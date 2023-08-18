@@ -45,8 +45,8 @@ body {
 }
 
 .navbar {
-	padding: 1vh 0 0 0;
-	line-height: 2;
+	padding: 1.5em 0 0 0;
+	line-height: 2.2;
 	letter-spacing: 0.1em;
 	display: block;
 }
@@ -60,7 +60,7 @@ body {
 	width: 100%;
 }
 #privacy-img {
-	background-image:url('services.png');
+	background-image:url('privacy.png');
 	background-size: cover;
 }
 #services-img {
@@ -69,6 +69,10 @@ body {
 }
 #home-img {
 	background-image:url('home.png');
+	background-size: cover;
+}
+#contact-img {
+	background-image:url('contact.png');
 	background-size: cover;
 }
 #clients-img {
