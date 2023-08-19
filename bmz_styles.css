@@ -8,7 +8,6 @@
 /* Background image slideshow */
 
 #home-img {
-    /*background-image: url('scan0004a.jpg'); /* Set your first slide image URL here */
     background-size: cover;
     background-position: center;
 	animation: slideShow-home 10s infinite;
@@ -32,12 +31,11 @@
     }
 }
 
-
 #services-img {
-    background-image: url('scan0001_working.jpg'); 
     background-size: cover;
     background-position: center;
     animation: slideShow-services 20s infinite; 
+	transition: background-image 4s ease-in-out;
 }
 
 @keyframes slideShow-services {
@@ -75,12 +73,6 @@
         background-image: url('scan0001_working.jpg'); 
     }
 }
-
-
-.foreground {
-	z-index: 1;
-}
-
 /*slideshow slideshow slideshow*/
 /*slideshow slideshow slideshow*/
 /*slideshow slideshow slideshow*/
