@@ -2,6 +2,92 @@
 	border: solid black .1px;
 }*/
 
+/*slideshow slideshow slideshow*/
+/*slideshow slideshow slideshow*/
+/*slideshow slideshow slideshow*/
+/* Background image slideshow */
+
+#home-img {
+    /*background-image: url('scan0004a.jpg'); /* Set your first slide image URL here */
+    background-size: cover;
+    background-position: center;
+	animation: slideShow-home 10s infinite;
+	transition: background-image 4s ease-in-out;
+}
+@keyframes slideShow-home {
+	0%, 100% {
+		background-image: url('scan0004a.jpg');
+	}
+    20% {
+        background-image: url('scan0004b.jpg'); 
+    }
+    40% {
+        background-image: url('scan0004c.jpg');
+    }
+    60% {
+        background-image: url('scan0004d.jpg'); 
+    }
+    80% {
+        background-image: url('scan0004e.jpg'); 
+    }
+}
+
+
+#services-img {
+    background-image: url('scan0001_working.jpg'); 
+    background-size: cover;
+    background-position: center;
+    animation: slideShow-services 20s infinite; 
+}
+
+@keyframes slideShow-services {
+	0% {
+        background-image: url('scan0001_c.png'); 
+    }
+	10% {
+        background-image: url('scan0001_a.png'); 
+    }
+	20% {
+        background-image: url('scan0001_b.png'); 
+    }
+	30% {
+        background-image: url('scan0001_d.png'); 
+    }
+    40% {
+        background-image: url('scan0001_e.png'); 
+    }
+    50% {
+        background-image: url('scan0001_f.png'); 
+    }
+    60% {
+        background-image: url('scan0001_g.png'); 
+    }
+	70% {
+        background-image: url('scan0001_h.png'); 
+    }
+	80% {
+        background-image: url('scan0001_i.png'); 
+    }
+	90% {
+        background-image: url('scan0001_j.png'); 
+	}
+	100% {
+        background-image: url('scan0001_working.jpg'); 
+    }
+}
+
+
+.foreground {
+	z-index: 1;
+}
+
+/*slideshow slideshow slideshow*/
+/*slideshow slideshow slideshow*/
+/*slideshow slideshow slideshow*/
+
+
+
+
 .img-fluid {
 	display: block;
 	height: auto;
@@ -43,6 +129,8 @@ body {
 	padding-right: .5px;
 	border-radius: 10px;
 }
+
+
 /* Style for active link */
 #home .navLink[href$="/home"],
 #privacy .navLink[href$="/privacy"],
@@ -70,16 +158,20 @@ body {
 .img-fluid {
 	width: 100%;
 }
-#privacy-img {
-	background-image:url('privacy.png');
+/*
+#home-img {
+	background-image:url('home.png');
 	background-size: cover;
 }
+*/
+/*
 #services-img {
 	background-image:url('services.png');
 	background-size: cover;
 }
-#home-img {
-	background-image:url('home.png');
+*/
+#privacy-img {
+	background-image:url('privacy.png');
 	background-size: cover;
 }
 #contact-img {
@@ -90,6 +182,7 @@ body {
 	background-image:url('clients.png');
 	background-size: cover;
 }
+
 .col-lg-4 {
     background: linear-gradient(to right, 
         rgba(231, 229, 188, 0.1) 0%, 
