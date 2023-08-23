@@ -35,44 +35,47 @@
     background-size: 65%;
     background-position: left bottom;
 	background-repeat: no-repeat;
-	    animation: slideShow-services 20s infinite; 
+	animation: slideShow-services 15s infinite; 
 	transition: background-image 4s ease-in-out;
 }
 
 @keyframes slideShow-services {
-	0%, 100% {
-        background-image: url('scan0001_c.png'); 
+	0% {
+        background-image: url('scan0001_working.png');
     }
 	9% {
-        background-image: url('scan0001_a.png'); 
+        background-image: url('scan0001_c.png'); 
     }
 	18% {
-        background-image: url('scan0001_b.png'); 
+        background-image: url('scan0001_a.png'); 
     }
 	27% {
-        background-image: url('scan0001_d.png'); 
+        background-image: url('scan0001_b.png'); 
     }
     36% {
-        background-image: url('scan0001_e.png'); 
+        background-image: url('scan0001_d.png'); 
     }
     45% {
-        background-image: url('scan0001_f.png'); 
+        background-image: url('scan0001_e.png'); 
     }
     54% {
-        background-image: url('scan0001_g.png'); 
+        background-image: url('scan0001_f.png'); 
     }
 	63% {
-        background-image: url('scan0001_h.png'); 
+        background-image: url('scan0001_g.png'); 
     }
 	72% {
-        background-image: url('scan0001_i.png'); 
+        background-image: url('scan0001_h.png'); 
     }
 	81% {
-        background-image: url('scan0001_j.png'); 
+        background-image: url('scan0001_i.png'); 
 	}
 	90% {
-        background-image: url('scan0001_working.jpg'); 
+		background-image: url('scan0001_j.png'); 
     }
+	100% {
+		background-image: url('scan0001_working.png');
+	}
 }
 /*slideshow slideshow slideshow*/
 /*slideshow slideshow slideshow*/
