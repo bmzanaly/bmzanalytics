@@ -8,8 +8,8 @@
 /* Background image slideshow */
 
 #home-img {
-    background-size: cover;
-	background-position: left center;
+	background-position: left bottom;
+	background-repeat: no-repeat;
 	animation: slideShow-home 10s infinite;
 	transition: background-image 4s ease-in-out;
 }
@@ -32,44 +32,45 @@
 }
 
 #services-img {
-    background-size: cover;
-    background-position: left center;
+    background-size: 65%;
+    background-position: left bottom;
+	background-repeat: no-repeat;
 	    animation: slideShow-services 20s infinite; 
 	transition: background-image 4s ease-in-out;
 }
 
 @keyframes slideShow-services {
-	0% {
+	0%, 100% {
         background-image: url('scan0001_c.png'); 
     }
-	10% {
+	9% {
         background-image: url('scan0001_a.png'); 
     }
-	20% {
+	18% {
         background-image: url('scan0001_b.png'); 
     }
-	30% {
+	27% {
         background-image: url('scan0001_d.png'); 
     }
-    40% {
+    36% {
         background-image: url('scan0001_e.png'); 
     }
-    50% {
+    45% {
         background-image: url('scan0001_f.png'); 
     }
-    60% {
+    54% {
         background-image: url('scan0001_g.png'); 
     }
-	70% {
+	63% {
         background-image: url('scan0001_h.png'); 
     }
-	80% {
+	72% {
         background-image: url('scan0001_i.png'); 
     }
-	90% {
+	81% {
         background-image: url('scan0001_j.png'); 
 	}
-	100% {
+	90% {
         background-image: url('scan0001_working.jpg'); 
     }
 }
@@ -164,22 +165,26 @@ body {
 */
 #privacy-img {
 	background-image:url('privacy.png');
-	background-size: cover;
+	background-size: 65%;
+	background-position: left bottom;
+	background-repeat: no-repeat;
 }
 #contact-img {
 	background-image:url('contact.png');
-	background-size: cover;
+	background-size: 65%;
+	background-repeat: no-repeat;
 }
 #clients-img {
 	background-image:url('clients.png');
-	background-size: cover;
+	background-size: 65%;
+	background-repeat: no-repeat;
 }
 
 .col-lg-4 {
     background: linear-gradient(to right, 
         rgba(231, 229, 188, 0.1) 0%, 
-		rgba(231, 229, 188, 0.9) 5%, 
-        rgba(231, 229, 188, 1.0) 50%
+		rgba(231, 229, 188, 0.9) 25%, 
+        rgba(231, 229, 188, 1.0) 55%
     )
 }
 #copy {
@@ -221,7 +226,9 @@ body {
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
 @media (min-width: 1200px) {
 /* intro page */
-
+#home-img {
+		background-size: 77.5%;
+}
 	#subtitle {
 		font-size: 2.25vw;
 		letter-spacing: 0.45vw;
@@ -256,7 +263,9 @@ body {
 /* LARGE LARGE LARGE LARGE LARGE LARGE */
 /* LARGE LARGE LARGE LARGE LARGE LARGE */
 @media (min-width: 992px) and (max-width: 1199px) {
-	
+	#home-img {
+		background-size: 85%;
+}
 	.navbar {
 		font-size: 1.2em;
 		font-weight: 400;
@@ -291,7 +300,9 @@ body {
 /* MED MED MED MED MED MED MED MED MED */
 /* MED MED MED MED MED MED MED MED MED */
 @media (min-width: 768px) and (max-width: 991px) {
-
+	#home-img {
+		background-size: 100%;
+}
 	.navbar {
 		font-size: 1.1em;
 		font-weight: 400;
@@ -329,6 +340,9 @@ body {
 /* SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
 @media (min-width: 576px) and (max-width: 767px) {
 	
+	#home-img {
+		background-size: 110%;
+}
 	.navbar {
 		font-weight: 400;
 	}
@@ -370,7 +384,9 @@ body {
 	body {
 		background: #E7E5BC;
 	}
-
+	#home-img {
+		background-size: 130%;
+}
 	.col-md-1 {display:none;}
 	.col-sm-12.col-md-10 {
 		padding: 1vh 1vw;
